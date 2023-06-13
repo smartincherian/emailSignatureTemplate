@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .image {
+        max-width: 9vw;
+        max-height: 15vh;
+        border-radius: 50%;
+        border: 5px solid white;
+      }
+
+      .container1 {
+        position: relative;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        vertical-align: middle;
+        border-radius: 15px;
+        margin: 4%;
+        border: 2px solid black;
+        width: 40%;
+        height: 35vh;
+      }
+
+      .white-bg {
+        padding: 4%;
+        background-color: #ffffff;
+        border-radius: inherit;
+      }
+
+      .blue-bg {
+        padding: 4%;
+        background-color: #003cff;
+        color: #eaf0ff;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 0 13px 13px 0;
+      }
+
+      .grid-container {
+        display: grid;
+      }
+
+      .grid-item {
+        justify-content: center;
+        align-items: center;
+      }
+
+      .center-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 10;
+        top: 10vh;
+        left: 40%;
+        height: 15vh;
+      }
+
+      .container2 {
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        gap: 12%;
+        width: 30%;
+        margin-top: 15%;
+      }
+
+      .item2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10%;
+      }
+
+      .name {
+        color: #003cff;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 2%;
+        font-size: 1.7vw;
+      }
+
+      .title {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #a7a7a7;
+        margin-top: 1%;
+        font-size: 1.3vw;
+      }
+
+      .company-name {
+        color: #222222;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .company-name2 {
+        color: #2c2c2c;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .container3 {
+        margin-top: 3%;
+      }
+
+      .container4 {
+        grid-template-columns: 0.4fr 10fr;
+        background-color: #003cff;
+        padding-left: 25%;
+      }
+
+      .container5 {
+        grid-gap: 2vh;
+        grid-template-rows: auto;
+        padding-top: 60%;
+      }
+
+      .container6 {
+        grid-gap: 3.8vh;
+        grid-template-rows: auto;
+        padding-left: 4%;
+        padding-bottom: 4%;
+        padding-top: 10%;
+      }
+
+      h5 {
+        font-weight: 600;
+        font-size: 1.1vw;
+      }
+
+      .left-icons {
+        height: 3.5vh;
+        width: 1.7vw;
+        border-radius: 50%;
+      }
+
+      .right-icons {
+        width: 1.7vw;
+      }
+
+      .logo-image {
+        height: 5vh;
+        width: 9vw;
+      }
+
+      a,
+      a:visited,
+      a:hover,
+      a:active {
+        color: inherit;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container container1">
+      <div class="grid-item white-bg">
+        <h2 class="name">Rashin Pothan</h2>
+        <h3 class="title">CEO/Founder</h3>
+
+        <div class="grid-container container2">
+          <div class="grid-item item2">
+            <!-- <img class="left-icons" src="b.png" alt="b" /> -->
+            <img
+              class="left-icons"
+              src="https://firebasestorage.googleapis.com/v0/b/job-portal---internship.appspot.com/o/emailSignature%2Fb.png?alt=media&token=1a38c906-a668-4f57-9b99-2133e206d17d&_gl=1*c4greu*_ga*NjMyNzgxNzI3LjE2ODMxNzUyMTU.*_ga_CW55HF8NVT*MTY4NjE0MDg0NC4yOS4xLjE2ODYxNDEwMTkuMC4wLjA."
+              alt="b"
+            />
+          </div>
+          <div class="grid-item item2">
+            <!-- <img class="left-icons" src="world.png" alt="world" /> -->
+            <img
+              class="left-icons"
+              src="https://firebasestorage.googleapis.com/v0/b/job-portal---internship.appspot.com/o/emailSignature%2Fworld.png?alt=media&token=64b80af6-bbe3-4f8d-a7a5-9c542aa78b23&_gl=1*zsbpyw*_ga*NjMyNzgxNzI3LjE2ODMxNzUyMTU.*_ga_CW55HF8NVT*MTY4NjE0MDg0NC4yOS4xLjE2ODYxNDEwNzYuMC4wLjA."
+              alt="world"
+            />
+          </div>
+          <div class="grid-item item2">
+            <!-- <img class="left-icons" src="insta.png" alt="insta" /> -->
+            <img
+              class="left-icons"
+              src="https://firebasestorage.googleapis.com/v0/b/job-portal---internship.appspot.com/o/emailSignature%2Finsta.png?alt=media&token=40a4e071-5e8a-46c3-8c4e-fb4a0fbf3ea0&_gl=1*10pirud*_ga*NjMyNzgxNzI3LjE2ODMxNzUyMTU.*_ga_CW55HF8NVT*MTY4NjE0MDg0NC4yOS4xLjE2ODYxNDExMDMuMC4wLjA."
+              alt="insta"
+            />
+          </div>
+        </div>
+
+        <div class="grid-container container3">
+          <div class="grid-item grid-item3">
+            <!-- <img class="logo-image" src="7thpillar.png" alt="logo" /> -->
+            <img
+              class="logo-image"
+              src="https://firebasestorage.googleapis.com/v0/b/job-portal---internship.appspot.com/o/emailSignature%2F7thpillar.png?alt=media&token=32430499-4e27-4d70-bd77-93d4284e5a0c&_gl=1*1mgcdp4*_ga*NjMyNzgxNzI3LjE2ODMxNzUyMTU.*_ga_CW55HF8NVT*MTY4NjE0MDg0NC4yOS4xLjE2ODYxNDExMjYuMC4wLjA."
+              alt="logo"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="center-image">
+        <!-- <img class="image" src="PHOTO.jpg" alt="Photo" /> -->
+        <img
+          class="image"
+          src="https://firebasestorage.googleapis.com/v0/b/job-portal---internship.appspot.com/o/emailSignature%2FPHOTO.jpg?alt=media&token=787675b6-7873-4a79-89bb-4af2332b885d&_gl=1*6ohgnr*_ga*NjMyNzgxNzI3LjE2ODMxNzUyMTU.*_ga_CW55HF8NVT*MTY4NjE0MDg0NC4yOS4xLjE2ODYxNDExNzQuMC4wLjA."
+          alt="Photo"
+        />
+      </div>
+
+      <div class="grid-item blue-bg">
+        <div class="grid-container container4">
+          <div class="grid-item">
+            <div class="grid-container container5">
+              <div class="grid-item item4">
+                <!-- <img class="right-icons" src="mail.png" alt="mail" /> -->
+                <a
+                  href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=Rashin@7thPillar.com"
+                  target="_blank"
+                >
+                  <img
+                    class="right-icons"
+                    src="https://firebasestorage.googleapis.com/v0/b/job-portal---internship.appspot.com/o/emailSignature%2Fmail.png?alt=media&token=5cd6b6d1-a43c-48bb-a2df-14e36325854b&_gl=1*1729sh9*_ga*NjMyNzgxNzI3LjE2ODMxNzUyMTU.*_ga_CW55HF8NVT*MTY4NjEzNTIzNy4yOC4xLjE2ODYxMzU0ODYuMC4wLjA."
+                    alt="mail"
+                  />
+                </a>
+                <!-- src="gs://job-portal---internship.appspot.com/emailSignature/mail.png" -->
+              </div>
+              <div class="grid-item item4">
+                <!-- <img class="right-icons" src="mobile.png" alt="mobile" /> -->
+                <a href="https://wa.me/+919847032301" target="_blank">
+                  <img
+                    class="right-icons"
+                    src="https://firebasestorage.googleapis.com/v0/b/job-portal---internship.appspot.com/o/emailSignature%2Fmobile.png?alt=media&token=6f7875e8-a249-4c84-9c56-9b021479e72d&_gl=1*11pj2j7*_ga*NjMyNzgxNzI3LjE2ODMxNzUyMTU.*_ga_CW55HF8NVT*MTY4NjE0MDg0NC4yOS4wLjE2ODYxNDA4NDQuMC4wLjA."
+                    alt="mobile"
+                  />
+                </a>
+              </div>
+              <div class="grid-item item4">
+                <!-- <img class="right-icons" src="web.png" alt="web" /> -->
+                <a href="https://7thPillar.com" target="_blank">
+                  <img
+                    class="right-icons"
+                    src="https://firebasestorage.googleapis.com/v0/b/job-portal---internship.appspot.com/o/emailSignature%2Fweb.png?alt=media&token=637a32dd-8b24-4605-ac09-ca847d915a94&_gl=1*1jd19nq*_ga*NjMyNzgxNzI3LjE2ODMxNzUyMTU.*_ga_CW55HF8NVT*MTY4NjE0MDg0NC4yOS4xLjE2ODYxNDA5MDcuMC4wLjA."
+                    alt="web"
+                  />
+                </a>
+              </div>
+              <div class="grid-item item4">
+                <!-- <img class="right-icons" src="location.png" alt="location" /> -->
+                <a href="https://goo.gl/maps/sTwnkfYigAcXw461A" target="_blank">
+                  <img
+                    class="right-icons"
+                    src="https://firebasestorage.googleapis.com/v0/b/job-portal---internship.appspot.com/o/emailSignature%2Flocation.png?alt=media&token=7ad0c374-099b-483e-b10d-70563dbd185a&_gl=1*1eg9m4d*_ga*NjMyNzgxNzI3LjE2ODMxNzUyMTU.*_ga_CW55HF8NVT*MTY4NjE0MDg0NC4yOS4xLjE2ODYxNDA5NzYuMC4wLjA."
+                    alt="location"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="grid-container container6">
+              <div class="grid-item item4">
+                <h5>
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=Rashin@7thPillar.com"
+                    target="_blank"
+                    >Rashin@7thPillar.com</a
+                  >
+                </h5>
+              </div>
+              <div class="grid-item item4">
+                <h5>
+                  <a href="https://wa.me/+919847032301" target="_blank"
+                    >+91 9847032301</a
+                  >
+                </h5>
+              </div>
+              <div class="grid-item item4">
+                <h5>
+                  <a href="https://7thPillar.com" target="_blank"
+                    >7thPillar.com</a
+                  >
+                </h5>
+              </div>
+              <div class="grid-item item4">
+                <h5>
+                  <a
+                    href="https://goo.gl/maps/sTwnkfYigAcXw461A"
+                    target="_blank"
+                    >Kakkanad, Cochin, India</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
